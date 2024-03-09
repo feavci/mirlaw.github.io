@@ -1,0 +1,50 @@
+.expertise-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
+
+.expertise{
+   width: 23rem;
+   height: 35rem;
+   background-color: #f0f0f0;
+   border-radius: 8px;
+   overflow: hidden;
+   /* box-shadow: 5px 2px 4px rgba(0,0,0,0.5); */
+   margin: 2rem;
+}
+
+/* .expertise{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+} */
+
+.expertise-content{
+    padding: 1rem;
+}
+
+.expertise-content h3{
+    font-size: 1.75rem;
+    margin-bottom: 8px;
+}
+
+.expertise-content p{
+    color: #777;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    letter-spacing: 0.2rem;
+}
+
+.expertise .expertise-content .expertise-p{
+    padding: 2rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.expertise .expertise-content .expertise-h3{
+    color: var(--brown-color);
+    padding: 2rem;
+    font-weight: 500;
+}

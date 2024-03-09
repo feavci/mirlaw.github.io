@@ -1,0 +1,58 @@
+.menu-toggle {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #111;
+    z-index: 999;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0rem;
+    left: 0;
+    width: 100%;
+    height: 6rem;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: top 0.5s; 
+}
+
+.nav-menu.visible {
+    top: 0;
+}
+
+.logo {
+    width: 8rem;
+    height: 5.7rem;
+    margin-right: 12rem;
+}
+
+.nav-menu .menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 25rem;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.nav-menu .menu-list .menu-list-item {
+    margin: 0 10px;
+}
+
+.nav-menu .menu-list .menu-list-item a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,23 @@
+
+.form-box {
+    background-color: #ededed;
+    padding: 20px;
+    width: 100%;
+    margin-top: rem;
+}
+footer .row{
+    display: flex;
+    justify-content: space-between;
+}
+.phone-1{
+    position: absolute;
+    left: 10rem;
+    margin-top: 29rem;
+    z-index: -1000;
+}
+.phone-2{
+    position: absolute;
+    left: 10rem;
+    margin-top: 30.4rem;
+    z-index: -1000;
+}

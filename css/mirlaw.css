@@ -1,0 +1,20 @@
+.mirlaw{
+    margin-top: 15rem;
+}
+
+.mirlaw p{
+    width: 55rem;
+    margin-top: 2rem;
+    letter-spacing: 0.2rem;
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.mirlaw h1{
+    font-size: 3rem;
+    color: #444;
+}
+
+/* .mirlaw span{
+    color: red;
+} */

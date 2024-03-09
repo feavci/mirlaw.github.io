@@ -1,0 +1,25 @@
+button#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 100%;
+}
+
+button#scrollToTopBtn:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+button#scrollToTopBtn:active {
+  background-color: red;
+}
+
+button#scrollToTopBtn.hidden {
+  display: none;
+}

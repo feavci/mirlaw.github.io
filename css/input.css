@@ -1,0 +1,55 @@
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"]{
+    outline: none;
+    border: 1px solid var(--white-color);
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: .2rem;
+    width: 30rem;
+    margin-top: 1rem;
+}
+
+.form-control[type="text"],
+.form-control[type="password"],
+.form-control[type="email"],
+.form-control[type="number"]{
+    outline: none;
+    border: 1px solid var(--white-color);
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    border-radius: .3rem;
+    width: 17rem;
+    margin-top: 1rem;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover{
+    border: 1px solid #000;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus{
+    border: 1px solid #000;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button{
+    opacity: 0;
+}
+
+textarea{
+    padding-left: 16px; 
+    padding-top: 10px;
+    outline: none;
+    border: 1px solid var(--white-color);
+    margin-top: 1rem;
+    width: 30rem;
+
+}
+textarea:hover{
+    border: 1px solid #000;
+}

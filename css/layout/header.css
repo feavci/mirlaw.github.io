@@ -1,0 +1,62 @@
+header{
+    border-bottom: 1px solid var(--white-color);
+}
+
+.lawyer{
+    height: 5.7rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-center .nav-menu .menu-list{
+    display: flex;
+    column-gap: 1.8rem;
+    align-items: center;
+}
+
+.header-center .menu-list .menu-list-item{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 5.7rem;
+}
+
+.header-center .menu-list .menu-link{
+    font-size: 1.2rem;
+    font-weight: 450;
+    letter-spacing: .1rem;
+    position: relative;
+}
+
+.header-center .menu-list .menu-link::after{
+    position: absolute;
+    content:"";
+    width: 0;
+    height: .04rem;
+    background-color: var(--brown-color);
+    bottom: -0.2rem;
+    left: 50%;
+    transform: translate(-50%);
+    transition: .4s ease width;
+}
+
+.header-center .menu-list .menu-list-item:hover .menu-link::after{
+    width: 100%;
+}
+
+.header-center .menu-list .menu-link.active::after{
+    width: 100%;
+ }
+ 
+
+ 

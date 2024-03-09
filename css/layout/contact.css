@@ -1,0 +1,48 @@
+.contact .contact-map  h1{
+    margin-bottom: 2rem; 
+    font-size: 3rem; color: var(--brown-color);
+    font-weight: 400;
+}
+
+.contact .contact-map{
+    height: 40rem;
+    padding-top: 5rem;
+    background-color: var(--white-color);
+}
+
+.contact .contact-bottom{
+    margin: 5rem 0;
+}
+
+.contact .contact-bottom .contact-title h4{
+    font-size: 3rem;
+    color: var(--brown-color);
+    font-weight: 400;
+    
+}
+
+.contact-element .contact-form{
+    margin: 1rem 0;
+}
+
+.contact-info .contact-info-texts{
+    position: absolute;
+    right: 0;
+    top: 80rem;
+    width: 30rem;
+    height: 24rem;
+    background-color: #f8f2f2;
+    margin-right: 10rem;
+    padding: 5rem;
+    z-index: -1000;
+}
+
+.contact-info .contact-info-texts strong{
+    font-size: 1.5rem;
+    color: var(--brown-color);
+    font-weight: 300;
+}
+
+.contact-info .contact-info-texts .contact-adress{
+    padding-bottom: 5rem;
+}
